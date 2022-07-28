@@ -9,3 +9,4 @@ class ProjectTest extends TestCase
         $name = "QuanTo"
         assertEquals($name, 'QuanTo');
     }
+}    
