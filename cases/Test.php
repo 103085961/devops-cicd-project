@@ -6,5 +6,6 @@ class ProjectTest extends TestCase
 {
     public function testCase()
     {
-        $this->assertEquals(2, 1+1);
+        $name = "QuanTo"
+        assertEquals($name, 'QuanTo');
     }
