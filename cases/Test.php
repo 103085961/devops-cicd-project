@@ -4,9 +4,14 @@ use PHPUnit\Framework\TestCase;
 
 class ProjectTest extends TestCase
 {
-    public function testCase()
+    public function testAuthorName()
     {
-        $name = "QuanTo"
-        assertEquals($name, 'QuanTo');
+        require('Test.php');
+
+        $project = new AuthorTest;
+
+        $project->author_name = "QuanTo";
+
+        $this->assertEquals('QuanTo', $project->getAuthorName());
     }
-}    
+}
