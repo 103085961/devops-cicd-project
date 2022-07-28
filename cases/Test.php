@@ -4,7 +4,7 @@ use PHPUnit\Framework\TestCase;
 
 class ProjectTest extends TestCase
 {
-    public function testReturnsProjectName()
+    public function testCase()
     {
         $this->assertEquals(2, 1+1);
     }
