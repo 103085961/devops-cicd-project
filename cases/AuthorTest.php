@@ -12,6 +12,10 @@ class ProjectTest extends TestCase
 
         $project->author_name = "QuanTo";
 
-        $this->assertEquals('QuanTo', $project->getAuthorName());
+        $this->assertEquals("QuanTo", $project->getAuthorName());
     }
+    
+    /**
+     * @test
+     */
 }
