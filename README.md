@@ -1,2 +1,2 @@
 # devops-cicd-project
-commit: 10
+commit: 7
